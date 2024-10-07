@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9929d96-ccaf-4dcf-a7f8-6a35dbea6217" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KwadratSzyfrujacy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/edu/pwr/student/damian_fryc/lab1/Encryptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pl/edu/pwr/student/damian_fryc/lab1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examples.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KwadratSzyfrujacy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/KwadratSzyfrujacy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/edu/pwr/student/damian_fryc/lab1/Encryptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/edu/pwr/student/damian_fryc/lab1/Encryptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pl/edu/pwr/student/damian_fryc/lab1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pl/edu/pwr/student/damian_fryc/lab1/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +27,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2n7D3MiNZQDY6gF4vQOX522rX39" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -43,10 +39,12 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/damia/Programowanie/JęzykiProgramowania/Square-Encription",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -55,7 +53,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "advanced.settings",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -82,8 +80,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
-        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+        <option value="jdk-21.0.2-temurin-21.0.2-4caba194b151-7da56cdf" />
       </set>
     </attachedChunks>
   </component>
@@ -96,11 +93,23 @@
       <option name="presentableId" value="Default" />
       <updated>1728315021247</updated>
       <workItem from="1728315022306" duration="4863000" />
+      <workItem from="1728334754021" duration="186000" />
+      <workItem from="1728335591425" duration="9197000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.StringIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="6" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
