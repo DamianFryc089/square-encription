@@ -1,5 +1,7 @@
 package pl.edu.pwr.student.damian_fryc.lab1;
 
+import java.util.Scanner;
+
 public class Main {
 	public static void main(String[] args) {
 		Encryptor encryptor = new Encryptor(new char[][]
@@ -19,7 +21,7 @@ public class Main {
 				});
 
 		encryptor.printKey();
-		String toEncrypt = "the quick brown fox jumps over the lazy dog";
+		String toEncrypt = new Scanner(System.in).nextLine();
 		toEncrypt = toEncrypt.toLowerCase();
 
 		System.out.println("Text to encrypt: " + toEncrypt + " (" + toEncrypt.length() + ")");
