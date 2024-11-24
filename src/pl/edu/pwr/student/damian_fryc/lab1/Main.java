@@ -49,18 +49,17 @@ public class Main {
 					break;
 				case 1:
 					System.out.print("To encrypt: ");
-					String encrypted = encryptor.encrypt(scanner.nextLine().toLowerCase());
+					String encrypted = encryptor.encrypt(scanner.nextLine());
 					System.out.println(" Encrypted: " + encrypted);
 					break;
 				case 2:
 					System.out.print("To decrypt: ");
-					String decrypted = encryptor.decrypt(scanner.nextLine().toLowerCase());
+					String decrypted = encryptor.decrypt(scanner.nextLine());
 					System.out.println(" Decrypted: " + decrypted);
 					break;
 				case 3:
 					System.out.print("To encrypt: ");
 					String toEncrypt = scanner.nextLine();
-					toEncrypt = toEncrypt.toLowerCase();
 
 					String encryptedTest = encryptor.encrypt(toEncrypt);
 					System.out.println(" Encrypted: " + encryptedTest + " (" + encryptedTest.length() + ")");
@@ -68,7 +67,7 @@ public class Main {
 					String decryptedTest = encryptor.decrypt(encryptedTest);
 					System.out.println(" Decrypted: " + decryptedTest + " (" + decryptedTest.length() + ")");
 
-					System.out.println("Are the same - " + toEncrypt.equals(decryptedTest));
+					System.out.println("Are the same - " + toEncrypt.toLowerCase().equals(decryptedTest));
 					break;
 				case 4:
 					System.exit(0);

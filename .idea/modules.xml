@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/KwadratSzyfrujacy.iml" filepath="$PROJECT_DIR$/KwadratSzyfrujacy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/square-encription.iml" filepath="$PROJECT_DIR$/square-encription.iml" />
     </modules>
   </component>
 </project>

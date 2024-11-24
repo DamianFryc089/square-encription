@@ -1,2 +1,2 @@
-module KwadratSzyfrujacy {
+module square.encription {
 }

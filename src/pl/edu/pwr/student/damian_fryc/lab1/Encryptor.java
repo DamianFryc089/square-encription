@@ -7,6 +7,7 @@ public class Encryptor {
 		setKey(newKey);
 		this.keyNotFoundAlert = keyNotFoundAlert;
 	}
+
 	public void setKey(char[][] key) {
 
 			// check if the key is a square
@@ -25,6 +26,7 @@ public class Encryptor {
 
 		this.key = key;
 	}
+
 	public void setKey(String key) {
 		double squareValue = Math.sqrt(key.length());
 		if (squareValue != (int)squareValue)
@@ -38,6 +40,7 @@ public class Encryptor {
 			this.key = newKey;
 		}
 	}
+
 	public void printKey() {
 		for (int i = 0; i < key.length; i++) {
 			for (int j = 0; j < key[i].length; j++) {
@@ -46,6 +49,7 @@ public class Encryptor {
 			System.out.print('\n');
 		}
 	}
+
 	private char[] getColumn(int col) {
 		char[] column = new char[key[0].length];
 		for (int i = 0; i < key[0].length; i++) {
@@ -53,6 +57,7 @@ public class Encryptor {
 		}
 		return column;
 	}
+
 	private int[][] locatePair(char firstLetter, char secondLetter) {
 		int[][] pairPositions = new int[][]{{-1,-1},{-1,-1}};
 
@@ -66,6 +71,7 @@ public class Encryptor {
 		}
 		return pairPositions;
 	}
+
 	public String encrypt(String text) {
 		if(key == null) return "Null key";
 		text = text.toLowerCase();
